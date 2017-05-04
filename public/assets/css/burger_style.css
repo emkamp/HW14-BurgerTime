@@ -1,0 +1,70 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container {
+    background-image: url(../img/birthdayburger.png);
+    padding-left: 300px;
+    background-position: -380px -50px;
+    background-size: 1200px 1000px;
+    background-repeat: no-repeat;
+    min-height: 900px;
+}
+
+.container-inner {
+    padding: 0 40px 40px 40px;
+    border: 1px solid #c74;
+    background-color: rgba(255, 238, 170, 0.5);
+    border-radius: 9px;
+    margin: 20px 10px;
+}
+
+.burger {
+    width: 150px;
+    height: 125px;
+    background-color: #ffe;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #F7E8BA;
+}
+
+.clear {
+    clear: both;
+}
+
+p.menuItem {
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.btn,
+input {
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.btn {
+    border: 1px solid #383;
+    background-color: #6b4;
+    color: #163c16;
+}
+
+input {
+    border: 1px solid #c74;
+    float: left;
+    margin-right: 10px;
+}
+
+#devoured-burgers li {
+    font-size: 14px;
+}
+
+.clear {
+    clear: both;
+}
