@@ -1,28 +1,29 @@
 {
-  "name": "burgertime",
-  "version": "1.0.0",
-  "description": "create and devour burgers",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/emkamp/HW14-BurgerTime.git"
-  },
-  "author": "emkamp",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/emkamp/HW14-BurgerTime/issues"
-  },
-  "homepage": "https://github.com/emkamp/HW14-BurgerTime#readme",
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.8",
-    "mysql": "^2.13.0"
-  },
-  "devDependencies": {}
+    "name": "burgertime",
+    "version": "1.0.0",
+    "description": "create and devour burgers",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/emkamp/HW14-BurgerTime.git"
+    },
+    "author": "emkamp",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/emkamp/HW14-BurgerTime/issues"
+    },
+    "homepage": "https://github.com/emkamp/HW14-BurgerTime#readme",
+    "dependencies": {
+        "body-parser": "^1.17.1",
+        "express": "^4.15.2",
+        "express-handlebars": "^3.0.0",
+        "method-override": "^2.3.8",
+        "mysql": "^2.13.0",
+        "router": "^1.3.0"
+    },
+    "devDependencies": {}
 }
